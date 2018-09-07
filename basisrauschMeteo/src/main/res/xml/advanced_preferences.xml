@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory  android:id="@+id/category_custompages"
+                         android:title="@string/title_preference_category_custompages">
+
+        <Preference android:title="@string/prefs_custom_webpages" >
+            <intent android:action="ch.icarosdev.webviewloadlib.custompages.ui.CONFIGURATION_PAGES"
+                    android:targetPackage="ch.icarosdev.basisrauschmeteo"
+                    android:targetClass="ch.icarosdev.webviewloadlib.custompages.ui.CustomPagesListActivity"/>
+        </Preference>
+
+        <CheckBoxPreference
+                android:key="checkbox_deactivate_defaultpages"
+                android:title="@string/title_checkbox_deactivate_standardpages"
+                android:summary="@string/summary_checkbox_deactivate_standardpages" />
+
+        <CheckBoxPreference
+                android:key="checkbox_load_from_cache"
+                android:title="@string/title_checkbox_load_data_from_cache"
+                android:summary="@string/summary_title_checkbox_load_data_from_cache" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+             <WebView
+                 android:id="@+id/webview"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent" />
+
+        <TextView android:text="@string/source"
+                  android:textColor="@drawable/grey"
+                  android:id="@+id/source_label"
+                  android:layout_width="wrap_content"
+                  android:layout_height="17dp"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginBottom="5dp"
+                  android:layout_alignParentBottom="true"
+                  android:gravity="top">
+        </TextView>
+
+        <TextView android:text="http://www.google.ch"
+                  android:textColor="@drawable/grey"
+                  android:textColorLink="@drawable/grey"
+                  android:id="@+id/source_link"
+                  android:autoLink="all"
+                  android:layout_width="wrap_content"
+                  android:layout_height="17dp"
+                  android:layout_marginLeft="5dp"
+                  android:layout_marginBottom="5dp"
+                  android:layout_alignParentBottom="true"
+                  android:gravity="top"
+                  android:layout_toRightOf="@+id/source_label">
+        </TextView>
+</RelativeLayout>

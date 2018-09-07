@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BasisrauschMeteo.iml" filepath="$PROJECT_DIR$/BasisrauschMeteo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basisrauschMeteo/basisrauschMeteo.iml" filepath="$PROJECT_DIR$/basisrauschMeteo/basisrauschMeteo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webViewLoadLib/webViewLoadLib.iml" filepath="$PROJECT_DIR$/webViewLoadLib/webViewLoadLib.iml" />
+    </modules>
+  </component>
+</project>

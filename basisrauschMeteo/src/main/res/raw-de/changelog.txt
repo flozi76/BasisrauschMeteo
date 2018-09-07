@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <style type='text/css'>
+      a            { color:#a0a0e0 }
+      div.title    {
+          color:#C0F0C0;
+          font-size:1.2em;
+          font-weight:bold;
+          margin-top:1em;
+          margin-bottom:0.5em;
+          text-align:center }
+      div.subtitle {
+          color:#C0F0C0;
+          font-size:0.8em;
+          margin-bottom:1em;
+          text-align:center }
+      div.freetext { color:#F0F0F0 }
+      div.list     { color:#C0C0F0 }
+    </style>
+  </head>
+  <body>
+$ 1.4.6
+  % Version 1.4.6
+  _ 2014-05-12
+    * Kleinere Fehlerkorrekturen
+    * Meteolinks aktualisiert
+$ 1.4.5
+  % Version 1.4.5
+  _ 2014-04-06
+    * Datenvebrauch bei Mobilen Verbindungen stark optimiert: Bei Mobiler Verbindung wird ein mix aus Cache und Livedaten geladen. So wrd der Verbrauch von Daten stark reduziert. Bei WIFI oder ETHERNET - Verbindung werden die Seiten vollständig geladen und im lokalen Cache aktualisiert.
+    * PDF - Download!: Auf Seiten welche pdf - Links hinterlegt sind, wie "Dabs Heute und Morgen" link "Download", können die pdf's ab sofort runtergeladen und in einem separaten pdf - viewer angeschaut werden.
+    * Kategorien Löschen: "Long - push" auf Einträge der Kategorieliste ruft ein "Löschen" - Dialog hervor. So können Kategorien auch wieder entfernt werden.
+    * Eigene Seiten zuerst: Seiten welche zusätzlich konfiguriert wurden, werden zuerst angezeigt
+    * Coming soon: Sortierung von Kategorien und Seiten ...
+$ 1.4.4
+  % Version 1.4.4
+  _ 2014-03-30
+    * Bugfix 1: Exzessiver Verbrauch von Hintergrunddaten gestoppt. Die Anwendung lädt im Ruhemodus keine Daten mehr nach.
+    * Bugfix 2: Installation und Start bei schlechter Internetverbindung bringt die App nicht mehr zum Absturz
+$ 1.4.3
+  % Version 1.4.3
+  _ 2014-03-23
+    * Offline Mode! Die Seiten stehen nun auch offline zur Verfügung aussert bei "Login Pages" wie "Segelflugprognose" und "Druckdifferenz". Feature coming soon ;)...
+    * Das Laden der Seiten wird als Progressbar zuoberst auf der App angezeigt
+    * Quellenangaben zur angezeigten Seite sind eingeblendet. Ein Click darauf öffnet die Url in ein Separates Browser-Fenster
+$ 1.4.2
+  % Version 1.4.2
+  _ 2014-03-22
+    * Laden von Login - Seiten wie "Segelflugprognose" und "Druckdifferenz" korrigiert. Funktionieren nun auch auf Android KitKat - Geräte
+$ 1.4.1
+  % Version 1.4.1
+  _ 2014-03-22
+    * Verbesserungen für die "Zurück" - Action: Action bleibt nicht mehr auf die erste Seite "kleben", danke Rene für den Tipp!
+    * App - Infos über Menü aufrufbar
+    * "Seite am Laden" - Animation korrigiert: wird jetzt richtig während dem Laden der Seite angezeigt.
+$ 1.4.0
+  % Version 1.4.0
+  _ 2014-03-21
+    * Quickfix Freeze auf Android KitKat
+    * Weitere Fixes folgen bald ...
+$ 1.3.1
+  % Version 1.3.1
+  _ 2014-02-09
+    * Zurück - Action auf initial - Seite konfiguriert
+    * Fehlerkorrekturen beim Laden der Seitenkonfigurationen
+    * Changelog integriert
+$ 1.3.0
+  % Version 1.3.0
+  _ 2014-01-20
+    * Eigene Seiten implementiert und in Konfiguration integriert
+    * Diverse Fehlerkorrekturen und Performanceverbesserungen
+$ END_OF_CHANGE_LOG
+  </body>
+</html>

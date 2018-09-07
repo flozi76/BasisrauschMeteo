@@ -1,0 +1,43 @@
+<resources>
+
+    <string name="app_name">WebViewLoadLib</string>
+    <string name="err_no_internetconnection">Internetverbindung wahrscheinlich nicht aktiv: </string>
+    <string name="source">Quelle:</string>
+    <string name="custompage_url_hint">Hier die Url der Seite einfügen</string>
+    <string name="custompage_name_hint">Anzeigename für die Seite eingeben</string>
+    <string name="custompage_url_capiton">Url</string>
+    <string name="custompage_name_capiton">Name</string>
+    <string name="custompage_spinner_capiton">Kategorie</string>
+    <string name="custompage_add_category">Neue Kategorie hinzufügen</string>
+    <string name="menu_add_page">Seite hinzufügen</string>
+    <string name="menu_delete_all_custom_pages">Alle löschen</string>
+    <string name="menu_save">Speichern</string>
+    <string name="menu_delete">Löschen</string>
+    <string name="menu_abort">Abbrechen</string>
+    <string name="alert_title_category">Kategoriename</string>
+    <string name="warn_no_internetconnection">Keine Internetverbindung: Daten werden aus dem lokalen Cache geladen</string>
+    <string name="item_removed">Kategorie gelöscht</string>
+    <string name="success_remove_item_from_list">Erfolgreich!</string>
+    <string name="delete_list_item">Kategorie von Liste löschen</string>
+    <string name="title_contextmenu_list">Was möchten Sie tun?:</string>
+    <string name="item_removed_done">Erledigt</string>
+    <string name="title_delete_all_dialog">Möchten Sie wirklich alles Löschen?</string>
+    <string name="message_delete_all_dialogentries">Alle konfigurierten Seiten werden gelöscht!</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="ok">Ok</string>
+    <string name="title_delete_page_dialog">Delete page?</string>
+    <string name="message_delete_page_dialog">Shure you want do delete this page from your list?</string>
+
+    <drawable name="white">#ffffff</drawable>
+    <drawable name="black">#000000</drawable>
+    <drawable name="green">#A4C639</drawable>
+    <drawable name="pink">#FF00FF</drawable>
+    <drawable name="violet">#a020f0</drawable>
+    <drawable name="grey">#778899</drawable>
+    <drawable name="red">#C11B17</drawable>
+    <drawable name="yellow">#FFFF8C</drawable>
+    <drawable name="PowderBlue">#b0e0e6</drawable>
+    <drawable name="brown">#2F1700</drawable>
+    <drawable name="Hotpink">#7D2252</drawable>
+    <drawable name="spaceblue">#FF33B5E5</drawable>
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+         <View
+         android:id="@+id/pinchzoomer"
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+        android:background="@color/regtherm_color_transparent"
+        android:layout_alignParentTop="true" />
+    
+<LinearLayout
+     android:orientation="vertical"
+ 	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	 android:layout_alignParentTop="true">
+    
+    <TextView
+       android:id="@+id/retherm_dayTitle"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"/>
+<TableLayout 
+    android:id="@+id/tableLayoutregtherm"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+</TableLayout>
+
+<LinearLayout
+     android:orientation="horizontal"
+ 	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+      <TextView  
+          android:textColor="@drawable/green"
+        android:id="@+id/cloud_top" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp">
+     </TextView>
+
+      <TextView  
+          android:textColor="@drawable/white"
+        android:id="@+id/mid_thermal_ms" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp">
+     </TextView>
+</LinearLayout>
+
+<LinearLayout
+     android:orientation="horizontal"
+ 	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+      <TextView  
+          android:textColor="@drawable/white"
+        android:id="@+id/cloud_basis" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp">
+     </TextView>
+      <TextView  
+          android:textColor="@drawable/green"
+        android:id="@+id/max_wind_kmh" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp">
+     </TextView>
+  </LinearLayout>
+</LinearLayout>
+
+      <TextView android:text="@string/source" 
+          android:textColor="@drawable/grey"
+        android:id="@+id/source_label" 
+        android:layout_width="wrap_content" 
+        android:layout_height="17dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="top">
+     </TextView>
+     
+     <TextView android:text="http://www.google.ch" 
+        android:textColor="@drawable/grey"
+        android:textColorLink="@drawable/grey"
+        android:id="@+id/source_link" 
+        android:autoLink="all"
+        android:layout_width="wrap_content" 
+        android:layout_height="17dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="top"
+        android:layout_toRightOf="@+id/source_label">
+     </TextView>
+
+</RelativeLayout>

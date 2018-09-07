@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/regtherm_tableRow"
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:padding="0dip" >
+ 
+        
+   		<TextView 
+       			android:id="@+id/textrowhight"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textSize="10sp"
+             android:text="1000m: "/>
+
+         <GridView
+             android:id="@+id/regtherm_gridview"
+             android:layout_width="260dp"
+             android:layout_height="10dp"
+             android:columnWidth="10dp"
+             android:gravity="center"
+             android:horizontalSpacing="1dp"
+             android:numColumns="24"
+             android:stretchMode="columnWidth" />
+</TableRow>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.actionbarsherlock:actionbarsherlock-4.4.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/actionbarsherlock-4.4.0.aar/260e42f17170cf11e61ab40e75e4a6bc/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/actionbarsherlock-4.4.0.aar/260e42f17170cf11e61ab40e75e4a6bc/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.actionbarsherlock/actionbarsherlock/4.4.0/baac9d4c61b13a7deee5b3ec0c2dc63ce2005a30/actionbarsherlock-4.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,50 @@
+<resources>
+
+    <string name="url_to_load">https://dl.dropboxusercontent.com/s/9w79rg302fpsaj5/PageDefinitions.xml?token_hash=AAF54zKqCBEYX_TaTtPygV4nxNGMHi3d6cXWkVMLxS90lg%26dl=1</string>
+    <string name="app_name">WebViewLoadLib</string>
+    <string name="err_no_internetconnection">Check your internet connection, probably not active: </string>
+    <string name="source">Source:</string>
+    <string name="custompage_url_hint">Insert the url of the page here</string>
+    <string name="custompage_name_hint">Label for the page</string>
+    <string name="custompage_url_capiton">Url</string>
+    <string name="custompage_name_capiton">Name</string>
+    <string name="custompage_spinner_capiton">Category</string>
+    <string name="custompage_add_category">Add new cagegory</string>
+    <string name="menu_add_page">Add new page</string>
+    <string name="menu_delete_all_custom_pages">Delete all</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_abort">Abort</string>
+    <string name="alert_title_category">Categoryname</string>
+    <string name="warn_no_internetconnection">No internetconnection: Loading data from the local cache</string>
+    <string name="item_removed">Item removed</string>
+    <string name="success_remove_item_from_list">Success</string>
+    <string name="delete_list_item">Delete category from list</string>
+    <string name="title_contextmenu_list">Action:</string>
+    <string name="item_removed_done">Done</string>
+
+    <string name="changelog_full_title">Change Log</string>
+    <string name="changelog_title">What\'s New</string>
+    <string name="changelog_ok_button">OK</string>
+    <string name="changelog_show_full">more...</string>
+    <string name="title_delete_all_dialog">Do you really want to delete all custom pages?</string>
+    <string name="message_delete_all_dialogentries">All configured pages will be deleted irreversibely</string>
+    <string name="ja">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="title_delete_page_dialog">Seite löschen?</string>
+    <string name="message_delete_page_dialog">Sind Sie sicher, dass Sie die Seite löschen möchten?</string>
+
+    <drawable name="white">#ffffff</drawable>
+    <drawable name="black">#000000</drawable>
+    <drawable name="green">#A4C639</drawable>
+    <drawable name="pink">#FF00FF</drawable>
+    <drawable name="violet">#a020f0</drawable>
+    <drawable name="grey">#778899</drawable>
+    <drawable name="red">#C11B17</drawable>
+    <drawable name="yellow">#FFFF8C</drawable>
+    <drawable name="PowderBlue">#b0e0e6</drawable>
+    <drawable name="brown">#2F1700</drawable>
+    <drawable name="Hotpink">#7D2252</drawable>
+    <drawable name="spaceblue">#FF33B5E5</drawable>
+</resources>

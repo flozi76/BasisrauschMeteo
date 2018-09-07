@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <style type='text/css'>
+      a            { color:#a0a0e0 }
+      div.title    {
+          color:#C0F0C0;
+          font-size:1.2em;
+          font-weight:bold;
+          margin-top:1em;
+          margin-bottom:0.5em;
+          text-align:center }
+      div.subtitle {
+          color:#C0F0C0;
+          font-size:0.8em;
+          margin-bottom:1em;
+          text-align:center }
+      div.freetext { color:#F0F0F0 }
+      div.list     { color:#C0C0F0 }
+    </style>
+  </head>
+  <body>
+$ 1.4.5
+  % Version 1.4.5
+  _ 2014-04-06
+    * Reduced data consumtion on 'Mobile - Connection': when connection is Mobile then a mix of cache & livedata load is done. That save a lot of data. When the connection is WIFI or ETHERNET then a full load with no cacheelements is performed and the cache actualized.
+    * Download of PDF's is possible now! On Pages as "Dabs Heute und Morgen" you can click on the "Download" - link and the pdf will be opened on a separate pdf - app. Each pdf - link will be threated as this.
+    * Delete Categories: long - push on a category - list item will show a "delete" dialog.
+    * Custom Category - Pages are shown before the standard categories
+    * Coming soon: sorting of Categories and Pages
+$ 1.4.4
+  % Version 1.4.4
+  _ 2014-03-30
+    * Bugfix 1: Huge load of Backgrounddata stopped in this Version.
+    * Bugfix 2: Installation at low connection does not anymore cause the app to Crash
+$ 1.4.3
+  % Version 1.4.3
+  _ 2014-03-23
+    * Offline Mode! Pages now available in offline mode except for "Login Pages" as "Segelflugprognose" and "Druckdifferenz". Feature coming soon ...
+    * Loading page shows now the progress going on on top of the app.
+    * Sourceurl of the page shown is displayed and clicking will open it in a Browser
+$ 1.4.2
+  % Version 1.4.2
+  _ 2014-03-22
+    * Fixed load login-pages as "Segelflugprognose" and "Druckdifferenz" on new devices running Android KitKat
+$ 1.4.1
+  % Version 1.4.1
+  _ 2014-03-22
+    * Enhancements on "Back" - Action: Action does not stay stick on the first page anymore. Thanks Rene for the tip!
+    * Added About - Menu to show the changelog
+    * "Loading - animation" is now showing the process correctly
+$ 1.4.0
+  % Version 1.4.0
+  _ 2014-03-21
+    * Quickfix Freeze on Android KitKat
+    * More fixes coming soon...
+$ 1.3.1
+  % Version 1.3.1
+  _ 2014-02-09
+    * Configured back - action to go to initial - page
+    * Integrated changelog
+$ 1.3.0
+  % Version 1.3.0
+  _ 2014-01-20
+    * Integrated own custom pages
+    * Bugfixes and speed on load pages
+$ END_OF_CHANGE_LOG
+  </body>
+</html>

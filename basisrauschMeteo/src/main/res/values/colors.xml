@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="regtherm_color_point">#ffffcc</color>
+	<color name="regtherm_color_star">#808080</color>
+	<color name="regtherm_color_1">#ccffcc</color>
+	<color name="regtherm_color_2">#99ff99</color>
+	<color name="regtherm_color_3">#66ff66</color>
+	<color name="regtherm_color_4">#33ff33</color>
+	<color name="regtherm_color_5">#66cc00</color>
+	<color name="regtherm_color_6">#00cc00</color>
+	<color name="regtherm_color_7">#009900</color>
+	<color name="regtherm_color_8">#006600</color>
+	<color name="regtherm_color_9">#003300</color>
+	<color name="regtherm_color_Horbar">#33b5e5</color>
+	<color name="regtherm_color_transparent">#80000000</color>
+</resources>

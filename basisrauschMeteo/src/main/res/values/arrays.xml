@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_list_preference">entries_list_preference1>
+        <item>item 1</item>
+        <item>item 2</item>
+        <item>item 3</item>
+        <item>item 4</item>
+    </string-array>
+    <string-array name="entryvalues_list_preference">entryvalues_list_preference>
+    <item>etnryval 1</item>
+    <item>etnryval 2</item>
+    <item>etnryval 3</item>
+    <item>etnryval 4</item>
+    <item>etnryval 5</item>
+    <item>etnryval 6</item>
+    <item>etnryval 7</item>
+    </string-array>
+    <string-array name="weekdays">weekdays>
+    <item>mo</item>
+    <item>di</item>
+    <item>mi</item>
+    <item>do</item>
+    <item>fr</item>
+    </string-array>
+    <string-array name="weekdays_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="empty_array">empty_array</string-array>
+</resources>

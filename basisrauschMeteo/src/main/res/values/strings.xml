@@ -1,0 +1,55 @@
+<resources>
+
+    <string name="menu_custom_settings">Personal configuration</string>
+    <string name="app_name">Basisrausch Meteo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Basisrausch Meteo</string>
+    <string name="prefs_custom_webpages">Configure own page</string>
+    <string name="summary_checkbox_preference">Summary Checkbox Preference</string>
+    <string name="dialog_based_preferences">Dialog Based Preferences</string>
+    <string name="title_edittext_preference">Title Edittext Preference</string>
+    <string name="summary_edittext_preference">Summary Edittext Preference</string>
+    <string name="dialog_title_edittext_preference">dialog_title_edittext_preference</string>
+    <string name="title_list_preference">title_list_preference</string>
+    <string name="summary_list_preference">summary_list_preference</string>
+    <string name="dialog_title_list_preference">dialog_title_list_preference</string>
+    <string name="launch_preferences">launch_preferences</string>
+    <string name="title_fragment_preference">title_fragment_preference</string>
+    <string name="summary_fragment_preference">summary_fragment_preference</string>
+    <string name="title_intent_preference">title_intent_preference</string>
+    <string name="summary_intent_preference">summary_intent_preference</string>
+    <string name="preference_attributes">preference_attributes</string>
+    <string name="title_parent_preference">title_parent_preference</string>
+    <string name="summary_parent_preference">summary_parent_preference</string>
+    <string name="title_child_preference">title_child_preference</string>
+    <string name="summary_child_preference">summary_child_preference</string>
+    <string name="mode_repeat">mode_repeat</string>
+    <string name="configure_pages">Configure page</string>
+    <string name="configure_pages_summary">Add, update or remove page</string>
+    <string name="title_checkbox_activate_custompages">Activate the configuration</string>
+    <string name="summary_checkbox_activate_custompages">Activate or deactivate the custom pages</string>
+    <string name="title_preference_category_custompages">Configuration custom page</string>
+    <string name="title_checkbox_deactivate_standardpages">Deactivate standard pages</string>
+    <string name="summary_checkbox_deactivate_standardpages">Deactivates the standard configuration and shows only the custompages.</string>
+
+
+    <string name="changelog_full_title">Change Log</string>
+    <string name="changelog_title">What\'s New</string>
+    <string name="changelog_ok_button">OK</string>
+    <string name="changelog_show_full">more...</string>
+    <string name="menu_appinfo">About</string>
+    <string name="title_checkbox_load_data_from_cache">Load data only from cache</string>
+    <string name="summary_title_checkbox_load_data_from_cache">When option is activated, the data will not anymore be loaded from the Internet, but only from the locale cache. If no data in cache an error will be presented.
+    </string>
+
+    <!--<string name="url_to_load">https://dl.dropboxusercontent.com/s/q5d84q08dajleuu/PageDefinitions.xml</string>-->
+    <string name="url_to_load">https://dl.dropboxusercontent.com/s/9w79rg302fpsaj5/PageDefinitions.xml</string>
+
+    <string-array name="selections">
+	<item>Meteo</item>
+	<item>Meteostationen</item>
+	<item>Webcams</item>
+	</string-array>
+    
+</resources>

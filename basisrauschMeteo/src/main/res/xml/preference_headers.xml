@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<preference-headers
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header android:fragment="ch.icarosdev.basisrauschmeteo.BasisrauschPreferenceActivity$Prefs1Fragment"
+            android:icon="@drawable/ic_action_web_site"
+            android:title="@string/configure_pages"
+            android:summary="@string/configure_pages_summary" />
+
+<!--    <header android:fragment="ch.icarosdev.basisrauschmeteo.BasisrauschPreferenceActivity$Prefs2Fragment"
+            android:icon="@drawable/ic_launcher"
+            android:title="Prefs 2"
+            android:summary="Some other preferences you can see.">
+        <extra android:name="someKey" android:value="someHeaderValue" />
+    </header>
+
+    <header android:icon="@drawable/ic_action_search"
+            android:title="Intent"
+            android:summary="Launches an Intent.">
+        <intent android:action="android.intent.action.VIEW"
+                android:data="http://www.android.com" />
+    </header>-->
+
+</preference-headers>
